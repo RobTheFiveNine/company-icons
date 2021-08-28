@@ -5,6 +5,7 @@
   "author": "RobTheFiveNine",
   "private": true,
   "scripts": {
+    "build": "webpack --mode production",
     "serve": "webpack serve --mode development --devtool inline-source-map"
   },
   "dependencies": {
