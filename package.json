@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of over 5,000 standardised 1:1 icons for publicly traded companies",
   "author": "RobTheFiveNine",
+  "license": "mpl-2.0",
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
