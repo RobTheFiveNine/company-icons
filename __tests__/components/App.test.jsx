@@ -39,3 +39,22 @@ describe('when an icon is selected', () => {
     expect(subject).toMatchSnapshot();
   });
 });
+
+describe('when an icon is deselected', () => {
+  it('should not render an icon', async () => {
+    const subject = await render();
+    const select = subject.root.findByType(Select);
+    const item = {
+      value: {
+        exchange: 'LSE',
+        ticker: 'TEST',
+        name: 'Test',
+        ext: '.jpg',
+      },
+    };
+
+    act(() => select.props.onChange(item));
+    act(() => select.props.onChange(null));
+    expect(subject).toMatchSnapshot();
+  });
+});
