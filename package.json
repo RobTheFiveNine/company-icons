@@ -8,7 +8,9 @@
   "scripts": {
     "build": "webpack --mode production",
     "publish": "git subtree push --prefix dist origin gh-pages",
-    "serve": "webpack serve --mode development --devtool inline-source-map"
+    "serve": "webpack serve --mode development --devtool inline-source-map",
+    "test": "jest -c jest.config.js",
+    "test:ci": "jest -c jest.config.js --coverage"
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
