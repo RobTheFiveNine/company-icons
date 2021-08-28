@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Select } from 'react-select-virtualized';
 import axios from 'axios';
 
-const LOGOS_BASE_URL = 'http://localhost:8080/logos';
+const LOGOS_BASE_URL = 'https://raw.githubusercontent.com/RobTheFiveNine/company-icons/main/logos';
 
 function App() {
   const [icons, setIcons] = useState([]);
