@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React, { useCallback, useEffect, useState } from 'react';
-import TextField from '@material-ui/core/TextField';
-import AutoComplete from '@material-ui/lab/Autocomplete';
+import { Select } from 'react-select-virtualized';
 import axios from 'axios';
 
 const LOGOS_BASE_URL = 'http://localhost:8080/logos';
@@ -13,26 +12,34 @@ function App() {
   useEffect(() => {
     axios
       .get(`${LOGOS_BASE_URL}/icons.json`)
-      .then((res) => setIcons(res.data));
+      .then((res) => setIcons(
+        res.data.map(
+          (i) => ({
+            value: i,
+            label: `${i.name} (${i.exchange}:${i.ticker})`,
+          }),
+        ),
+      ));
   }, []);
 
   const handleOnChange = useCallback(
-    (ev, value) => {
-      setIconPath(
-        `${LOGOS_BASE_URL}/${value.exchange}-${value.ticker}${value.ext}`,
-      );
+    (item) => {
+      if (!item) {
+        setIconPath(null);
+      } else {
+        setIconPath(
+          `${LOGOS_BASE_URL}/${item.value.exchange}-${item.value.ticker}${item.value.ext}`,
+        );
+      }
     },
     [],
   );
 
   return (
     <div>
-      <AutoComplete
-        id="combo-box-demo"
+      <Select
         options={icons}
-        getOptionLabel={(i) => `${i.name} (${i.exchange}:${i.ticker})`}
         onChange={handleOnChange}
-        renderInput={(params) => <TextField {...params} label="Icons" variant="outlined" />}
       />
 
       {

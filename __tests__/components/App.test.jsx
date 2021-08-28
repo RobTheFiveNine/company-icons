@@ -1,7 +1,7 @@
 import React from 'react';
 import App from '@src/components/App';
 import renderer, { act } from 'react-test-renderer';
-import AutoComplete from '@material-ui/lab/Autocomplete';
+import { Select } from 'react-select-virtualized';
 
 jest.mock('axios');
 
@@ -22,32 +22,20 @@ it('should render correctly', async () => {
   expect(subject).toMatchSnapshot();
 });
 
-it('should render the dropdown items correctly', async () => {
-  const subject = await render();
-  const autoComplete = subject.root.findByType(AutoComplete);
-  const item = {
-    exchange: 'LSE',
-    ticker: 'TEST',
-    name: 'Test',
-    ext: '.jpg',
-  };
-
-  const res = autoComplete.props.getOptionLabel(item);
-  expect(res).toEqual('Test (LSE:TEST)');
-});
-
 describe('when an icon is selected', () => {
   it('should render the icon', async () => {
     const subject = await render();
-    const autoComplete = subject.root.findByType(AutoComplete);
+    const select = subject.root.findByType(Select);
     const item = {
-      exchange: 'LSE',
-      ticker: 'TEST',
-      name: 'Test',
-      ext: '.jpg',
+      value: {
+        exchange: 'LSE',
+        ticker: 'TEST',
+        name: 'Test',
+        ext: '.jpg',
+      },
     };
 
-    act(() => autoComplete.props.onChange(null, item));
+    act(() => select.props.onChange(item));
     expect(subject).toMatchSnapshot();
   });
 });
