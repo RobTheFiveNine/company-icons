@@ -9,3 +9,5 @@
 !.yarn/versions
 
 coverage/
+dist/
+node_modules/
