@@ -6,7 +6,8 @@
   "license": "mpl-2.0",
   "private": true,
   "scripts": {
-    "build": "webpack -c webpack.prod.config.js --mode production",
+    "build": "webpack -c webpack.prod.config.js --mode production && yarn run minify:icons",
+    "minify:icons": "yarn node bin/minify-icons.js",
     "publish": "gh-pages -d dist",
     "serve": "webpack serve -c webpack.dev.config.js --mode development --devtool inline-source-map",
     "test": "jest -c jest.config.js",

@@ -39,12 +39,26 @@ module.exports = {
     ],
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'logos'),
-      publicPath: '/logos',
-    },
+    static: [
+      {
+        directory: path.join(__dirname, 'logos'),
+        publicPath: '/logos',
+      },
+      {
+        directory: path.join(__dirname, 'src'),
+        publicPath: '/src',
+      },
+    ],
     compress: true,
     port: 8080,
+    proxy: {
+      '/icons.mini.json': {
+        target: 'http://localhost:8080',
+        pathRewrite: {
+          '^/icons.mini.json': '/src/icons.json',
+        },
+      },
+    },
     historyApiFallback: true,
   },
 };

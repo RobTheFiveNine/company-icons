@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`${window.LOGOS_BASE_URL}/icons.json`)
+      .get('icons.mini.json')
       .then((res) => setIcons(
         res.data.map(
           (i) => ({
