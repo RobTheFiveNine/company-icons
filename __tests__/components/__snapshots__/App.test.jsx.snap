@@ -2,6 +2,19 @@
 
 exports[`should render correctly 1`] = `
 <div>
+  <h1>
+    Company Icons
+  </h1>
+  <p>
+    This page currently hosts standardised icons for 
+    <strong>
+      3
+    </strong>
+     publicly listed companies. Each icon uses a 1:1 aspect ratio, making them suitable for applications that need to display company logos as avatars / icons.
+  </p>
+  <p>
+    To search for an icon, use the search box below by typing in the company name or ticker symbol.
+  </p>
   <div
     className="react-select-virtualized css-2b097c-container"
     onKeyDown={[Function]}
@@ -111,11 +124,38 @@ exports[`should render correctly 1`] = `
       </div>
     </div>
   </div>
+  <p
+    className="contribution-notice"
+  >
+    <small>
+      Found an icon that is not available here? Consider adding it by 
+      <a
+        href="https://github.com/RobTheFiveNine/company-icons/blob/main/CONTRIBUTING.md"
+        target="_blank"
+      >
+        contributing to the project
+      </a>
+      .
+    </small>
+  </p>
 </div>
 `;
 
 exports[`when an icon is deselected should not render an icon 1`] = `
 <div>
+  <h1>
+    Company Icons
+  </h1>
+  <p>
+    This page currently hosts standardised icons for 
+    <strong>
+      3
+    </strong>
+     publicly listed companies. Each icon uses a 1:1 aspect ratio, making them suitable for applications that need to display company logos as avatars / icons.
+  </p>
+  <p>
+    To search for an icon, use the search box below by typing in the company name or ticker symbol.
+  </p>
   <div
     className="react-select-virtualized css-2b097c-container"
     onKeyDown={[Function]}
@@ -225,11 +265,38 @@ exports[`when an icon is deselected should not render an icon 1`] = `
       </div>
     </div>
   </div>
+  <p
+    className="contribution-notice"
+  >
+    <small>
+      Found an icon that is not available here? Consider adding it by 
+      <a
+        href="https://github.com/RobTheFiveNine/company-icons/blob/main/CONTRIBUTING.md"
+        target="_blank"
+      >
+        contributing to the project
+      </a>
+      .
+    </small>
+  </p>
 </div>
 `;
 
 exports[`when an icon is selected should render the icon 1`] = `
 <div>
+  <h1>
+    Company Icons
+  </h1>
+  <p>
+    This page currently hosts standardised icons for 
+    <strong>
+      3
+    </strong>
+     publicly listed companies. Each icon uses a 1:1 aspect ratio, making them suitable for applications that need to display company logos as avatars / icons.
+  </p>
+  <p>
+    To search for an icon, use the search box below by typing in the company name or ticker symbol.
+  </p>
   <div
     className="react-select-virtualized css-2b097c-container"
     onKeyDown={[Function]}
@@ -344,5 +411,19 @@ exports[`when an icon is selected should render the icon 1`] = `
     className="selected-icon"
     src="http://localhost/test/logos/LSE-TEST.jpg"
   />
+  <p
+    className="contribution-notice"
+  >
+    <small>
+      Found an icon that is not available here? Consider adding it by 
+      <a
+        href="https://github.com/RobTheFiveNine/company-icons/blob/main/CONTRIBUTING.md"
+        target="_blank"
+      >
+        contributing to the project
+      </a>
+      .
+    </small>
+  </p>
 </div>
 `;
