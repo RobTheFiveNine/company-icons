@@ -31,7 +31,7 @@ exports[`should render correctly 1`] = `
           <div
             className=""
             style={
-              Object {
+              {
                 "display": "inline-block",
               }
             }
@@ -48,7 +48,7 @@ exports[`should render correctly 1`] = `
               onFocus={[Function]}
               spellCheck="false"
               style={
-                Object {
+                {
                   "background": 0,
                   "border": 0,
                   "boxSizing": "content-box",
@@ -67,7 +67,7 @@ exports[`should render correctly 1`] = `
             />
             <div
               style={
-                Object {
+                {
                   "height": 0,
                   "left": 0,
                   "overflow": "scroll",
@@ -145,7 +145,7 @@ exports[`when an icon is deselected should not render an icon 1`] = `
           <div
             className=""
             style={
-              Object {
+              {
                 "display": "inline-block",
               }
             }
@@ -162,7 +162,7 @@ exports[`when an icon is deselected should not render an icon 1`] = `
               onFocus={[Function]}
               spellCheck="false"
               style={
-                Object {
+                {
                   "background": 0,
                   "border": 0,
                   "boxSizing": "content-box",
@@ -181,7 +181,7 @@ exports[`when an icon is deselected should not render an icon 1`] = `
             />
             <div
               style={
-                Object {
+                {
                   "height": 0,
                   "left": 0,
                   "overflow": "scroll",
@@ -259,7 +259,7 @@ exports[`when an icon is selected should render the icon 1`] = `
           <div
             className=""
             style={
-              Object {
+              {
                 "display": "inline-block",
               }
             }
@@ -276,7 +276,7 @@ exports[`when an icon is selected should render the icon 1`] = `
               onFocus={[Function]}
               spellCheck="false"
               style={
-                Object {
+                {
                   "background": 0,
                   "border": 0,
                   "boxSizing": "content-box",
@@ -295,7 +295,7 @@ exports[`when an icon is selected should render the icon 1`] = `
             />
             <div
               style={
-                Object {
+                {
                   "height": 0,
                   "left": 0,
                   "overflow": "scroll",
