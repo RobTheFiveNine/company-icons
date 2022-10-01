@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:6.6.1"],\
             ["eslint-plugin-react", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:7.31.8"],\
             ["eslint-plugin-react-hooks", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:4.6.0"],\
-            ["gh-pages", "npm:3.2.3"],\
+            ["gh-pages", "npm:4.0.0"],\
             ["html-webpack-plugin", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:5.5.0"],\
             ["jest", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:29.1.2"],\
             ["jest-environment-jsdom", "npm:29.1.2"],\
@@ -3484,7 +3484,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:6.6.1"],\
             ["eslint-plugin-react", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:7.31.8"],\
             ["eslint-plugin-react-hooks", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:4.6.0"],\
-            ["gh-pages", "npm:3.2.3"],\
+            ["gh-pages", "npm:4.0.0"],\
             ["html-webpack-plugin", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:5.5.0"],\
             ["jest", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:29.1.2"],\
             ["jest-environment-jsdom", "npm:29.1.2"],\
@@ -7865,10 +7865,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gh-pages", [\
-        ["npm:3.2.3", {\
-          "packageLocation": "./.yarn/cache/gh-pages-npm-3.2.3-de723c58be-0a6e92180c.zip/node_modules/gh-pages/",\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/gh-pages-npm-4.0.0-1490bfc5d9-255648eb27.zip/node_modules/gh-pages/",\
           "packageDependencies": [\
-            ["gh-pages", "npm:3.2.3"],\
+            ["gh-pages", "npm:4.0.0"],\
             ["async", "npm:2.6.3"],\
             ["commander", "npm:2.20.3"],\
             ["email-addresses", "npm:3.1.0"],\

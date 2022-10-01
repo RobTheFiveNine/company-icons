@@ -8,7 +8,7 @@
   "scripts": {
     "build": "webpack -c webpack.prod.config.js --mode production && yarn run minify:icons",
     "minify:icons": "yarn node bin/minify-icons.js",
-    "publish": "gh-pages -d dist",
+    "publish": "yarn run build && gh-pages -d dist",
     "serve": "webpack serve -c webpack.dev.config.js --mode development --devtool inline-source-map",
     "test": "jest -c jest.config.js",
     "test:ci": "jest -c jest.config.js --coverage"
@@ -41,7 +41,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^4.0.0",
     "jest": "^29.1.2",
     "jest-environment-jsdom": "^29.1.2",
     "react-test-renderer": "^17.0.2",
