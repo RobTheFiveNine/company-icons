@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React, { useCallback, useEffect, useState } from 'react';
-import { Select } from 'react-select-virtualized';
+import IconSelect from './IconSelect';
 import axios from 'axios';
 
 function App() {
@@ -35,14 +35,30 @@ function App() {
 
   return (
     <div>
-      <Select
-        options={icons}
+       <h1>Company Icons</h1>
+      <p>
+        This page currently hosts standardised icons for <strong>{icons.length}</strong> publicly listed companies.
+        Each icon uses a 1:1 aspect ratio, making them suitable for applications that need
+        to display company logos as avatars / icons.
+      </p>
+      <p>
+        To search for an icon, use the search box below by typing in the company name or ticker symbol.
+      </p>
+
+      <IconSelect
+        icons={icons}
         onChange={handleOnChange}
       />
 
       {
         iconPath ? <img className="selected-icon" src={iconPath} alt="Selected Icon" /> : null
       }
+      
+      <p className="contribution-notice">
+        <small>
+          Found an icon that is not available here? Consider adding it by <a href="https://github.com/RobTheFiveNine/company-icons/blob/main/CONTRIBUTING.md" target="_blank">contributing to the project</a>.
+        </small>
+      </p>
     </div>
   );
 }
