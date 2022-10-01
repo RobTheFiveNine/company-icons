@@ -342,7 +342,7 @@ exports[`when an icon is selected should render the icon 1`] = `
   <img
     alt="Selected Icon"
     className="selected-icon"
-    src="https://raw.githubusercontent.com/RobTheFiveNine/company-icons/main/logos/LSE-TEST.jpg"
+    src="http://localhost/test/logos/LSE-TEST.jpg"
   />
 </div>
 `;

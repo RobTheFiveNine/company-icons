@@ -1,4 +1,4 @@
-const CopyPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -8,10 +8,9 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        { from: 'src/index.html', to: 'index.html' },
-      ],
+    new HtmlWebpackPlugin({
+      template: 'src/index.html',
+      inject: 'body',
     }),
   ],
   resolve: {
