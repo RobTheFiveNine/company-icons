@@ -1,4 +1,4 @@
-const CopyPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -8,10 +8,9 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        { from: 'src/index.html', to: 'index.html' },
-      ],
+    new HtmlWebpackPlugin({
+      template: 'src/index.html',
+      inject: 'body',
     }),
   ],
   resolve: {
@@ -40,12 +39,26 @@ module.exports = {
     ],
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'logos'),
-      publicPath: '/logos',
-    },
+    static: [
+      {
+        directory: path.join(__dirname, 'logos'),
+        publicPath: '/logos',
+      },
+      {
+        directory: path.join(__dirname, 'src'),
+        publicPath: '/src',
+      },
+    ],
     compress: true,
     port: 8080,
+    proxy: {
+      '/icons.mini.json': {
+        target: 'http://localhost:8080',
+        pathRewrite: {
+          '^/icons.mini.json': '/src/icons.json',
+        },
+      },
+    },
     historyApiFallback: true,
   },
 };

@@ -4,6 +4,7 @@ import renderer, { act } from 'react-test-renderer';
 import { Select } from 'react-select-virtualized';
 
 jest.mock('axios');
+window.LOGOS_BASE_URL = 'http://localhost/test/logos';
 
 async function render() {
   let subject;

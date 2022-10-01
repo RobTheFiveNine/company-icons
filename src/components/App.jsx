@@ -3,15 +3,13 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Select } from 'react-select-virtualized';
 import axios from 'axios';
 
-const LOGOS_BASE_URL = 'https://raw.githubusercontent.com/RobTheFiveNine/company-icons/main/logos';
-
 function App() {
   const [icons, setIcons] = useState([]);
   const [iconPath, setIconPath] = useState(null);
 
   useEffect(() => {
     axios
-      .get(`${LOGOS_BASE_URL}/icons.json`)
+      .get('icons.mini.json')
       .then((res) => setIcons(
         res.data.map(
           (i) => ({
@@ -28,7 +26,7 @@ function App() {
         setIconPath(null);
       } else {
         setIconPath(
-          `${LOGOS_BASE_URL}/${item.value.exchange}-${item.value.ticker}${item.value.ext}`,
+          `${window.LOGOS_BASE_URL}/${item.value.exchange}-${item.value.ticker}${item.value.ext}`,
         );
       }
     },

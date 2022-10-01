@@ -43,6 +43,10 @@
       }
     }
   </style>
+
+  <script>
+    window.LOGOS_BASE_URL = '<%= htmlWebpackPlugin.options.baseUrl %>';
+  </script>
 </head>
 
 <body>
@@ -65,7 +69,6 @@
       </small>
     </p>
   </div>
-  <script type="text/javascript" src="bundle.js"></script>
 </body>
 
 </html>
