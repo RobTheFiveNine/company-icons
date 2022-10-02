@@ -7950,6 +7950,12 @@
     "ticker" : "CPSI"
   },
   {
+    "exchange" : "NASDAQ",
+    "ext" : ".png",
+    "name" : "Computershare Ltd",
+    "ticker" : "CMSQF"
+  },
+  {
     "exchange" : "NYSE",
     "ext" : ".png",
     "name" : "CompX International Inc",
