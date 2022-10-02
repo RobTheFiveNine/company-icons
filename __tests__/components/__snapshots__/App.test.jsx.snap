@@ -16,9 +16,13 @@ exports[`should render correctly 1`] = `
     To search for an icon, use the search box below by typing in the company name or ticker symbol.
   </p>
   <div
-    className="react-select-virtualized css-2b097c-container"
+    className="react-select-virtualized css-b62m3t-container"
     onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-2-live-region"
+    />
     <span
       aria-atomic="false"
       aria-live="polite"
@@ -26,74 +30,59 @@ exports[`should render correctly 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-yk16xz-control"
+      className=" css-1s2u09g-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-g1d714-ValueContainer"
+        className=" css-319lph-ValueContainer"
       >
         <div
-          className=" css-1wa3eu0-placeholder"
+          className=" css-14el2xx-placeholder"
+          id="react-select-2-placeholder"
         >
           Select...
         </div>
         <div
-          className="css-b8ldur-Input"
+          className=" css-6j8wv5-Input"
+          data-value=""
         >
-          <div
+          <input
+            aria-autocomplete="list"
+            aria-describedby="react-select-2-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            autoCapitalize="none"
+            autoComplete="off"
+            autoCorrect="off"
             className=""
+            disabled={false}
+            id="react-select-2-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            spellCheck="false"
             style={
               {
-                "display": "inline-block",
+                "background": 0,
+                "border": 0,
+                "color": "inherit",
+                "font": "inherit",
+                "gridArea": "1 / 2",
+                "label": "input",
+                "margin": 0,
+                "minWidth": "2px",
+                "opacity": 1,
+                "outline": 0,
+                "padding": 0,
+                "width": "100%",
               }
             }
-          >
-            <input
-              aria-autocomplete="list"
-              autoCapitalize="none"
-              autoComplete="off"
-              autoCorrect="off"
-              disabled={false}
-              id="react-select-2-input"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              spellCheck="false"
-              style={
-                {
-                  "background": 0,
-                  "border": 0,
-                  "boxSizing": "content-box",
-                  "color": "inherit",
-                  "fontSize": "inherit",
-                  "label": "input",
-                  "opacity": 1,
-                  "outline": 0,
-                  "padding": 0,
-                  "width": "1px",
-                }
-              }
-              tabIndex="0"
-              type="text"
-              value=""
-            />
-            <div
-              style={
-                {
-                  "height": 0,
-                  "left": 0,
-                  "overflow": "scroll",
-                  "position": "absolute",
-                  "top": 0,
-                  "visibility": "hidden",
-                  "whiteSpace": "pre",
-                }
-              }
-            >
-              
-            </div>
-          </div>
+            tabIndex={0}
+            type="text"
+            value=""
+          />
         </div>
       </div>
       <div
@@ -157,9 +146,13 @@ exports[`when an icon is deselected should not render an icon 1`] = `
     To search for an icon, use the search box below by typing in the company name or ticker symbol.
   </p>
   <div
-    className="react-select-virtualized css-2b097c-container"
+    className="react-select-virtualized css-b62m3t-container"
     onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-4-live-region"
+    />
     <span
       aria-atomic="false"
       aria-live="polite"
@@ -167,74 +160,59 @@ exports[`when an icon is deselected should not render an icon 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-yk16xz-control"
+      className=" css-1s2u09g-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-g1d714-ValueContainer"
+        className=" css-319lph-ValueContainer"
       >
         <div
-          className=" css-1wa3eu0-placeholder"
+          className=" css-14el2xx-placeholder"
+          id="react-select-4-placeholder"
         >
           Select...
         </div>
         <div
-          className="css-b8ldur-Input"
+          className=" css-6j8wv5-Input"
+          data-value=""
         >
-          <div
+          <input
+            aria-autocomplete="list"
+            aria-describedby="react-select-4-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            autoCapitalize="none"
+            autoComplete="off"
+            autoCorrect="off"
             className=""
+            disabled={false}
+            id="react-select-4-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            spellCheck="false"
             style={
               {
-                "display": "inline-block",
+                "background": 0,
+                "border": 0,
+                "color": "inherit",
+                "font": "inherit",
+                "gridArea": "1 / 2",
+                "label": "input",
+                "margin": 0,
+                "minWidth": "2px",
+                "opacity": 1,
+                "outline": 0,
+                "padding": 0,
+                "width": "100%",
               }
             }
-          >
-            <input
-              aria-autocomplete="list"
-              autoCapitalize="none"
-              autoComplete="off"
-              autoCorrect="off"
-              disabled={false}
-              id="react-select-4-input"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              spellCheck="false"
-              style={
-                {
-                  "background": 0,
-                  "border": 0,
-                  "boxSizing": "content-box",
-                  "color": "inherit",
-                  "fontSize": "inherit",
-                  "label": "input",
-                  "opacity": 1,
-                  "outline": 0,
-                  "padding": 0,
-                  "width": "1px",
-                }
-              }
-              tabIndex="0"
-              type="text"
-              value=""
-            />
-            <div
-              style={
-                {
-                  "height": 0,
-                  "left": 0,
-                  "overflow": "scroll",
-                  "position": "absolute",
-                  "top": 0,
-                  "visibility": "hidden",
-                  "whiteSpace": "pre",
-                }
-              }
-            >
-              
-            </div>
-          </div>
+            tabIndex={0}
+            type="text"
+            value=""
+          />
         </div>
       </div>
       <div
@@ -298,9 +276,13 @@ exports[`when an icon is selected should render the icon 1`] = `
     To search for an icon, use the search box below by typing in the company name or ticker symbol.
   </p>
   <div
-    className="react-select-virtualized css-2b097c-container"
+    className="react-select-virtualized css-b62m3t-container"
     onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-3-live-region"
+    />
     <span
       aria-atomic="false"
       aria-live="polite"
@@ -308,74 +290,59 @@ exports[`when an icon is selected should render the icon 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-yk16xz-control"
+      className=" css-1s2u09g-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-g1d714-ValueContainer"
+        className=" css-319lph-ValueContainer"
       >
         <div
-          className=" css-1wa3eu0-placeholder"
+          className=" css-14el2xx-placeholder"
+          id="react-select-3-placeholder"
         >
           Select...
         </div>
         <div
-          className="css-b8ldur-Input"
+          className=" css-6j8wv5-Input"
+          data-value=""
         >
-          <div
+          <input
+            aria-autocomplete="list"
+            aria-describedby="react-select-3-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            autoCapitalize="none"
+            autoComplete="off"
+            autoCorrect="off"
             className=""
+            disabled={false}
+            id="react-select-3-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            spellCheck="false"
             style={
               {
-                "display": "inline-block",
+                "background": 0,
+                "border": 0,
+                "color": "inherit",
+                "font": "inherit",
+                "gridArea": "1 / 2",
+                "label": "input",
+                "margin": 0,
+                "minWidth": "2px",
+                "opacity": 1,
+                "outline": 0,
+                "padding": 0,
+                "width": "100%",
               }
             }
-          >
-            <input
-              aria-autocomplete="list"
-              autoCapitalize="none"
-              autoComplete="off"
-              autoCorrect="off"
-              disabled={false}
-              id="react-select-3-input"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              spellCheck="false"
-              style={
-                {
-                  "background": 0,
-                  "border": 0,
-                  "boxSizing": "content-box",
-                  "color": "inherit",
-                  "fontSize": "inherit",
-                  "label": "input",
-                  "opacity": 1,
-                  "outline": 0,
-                  "padding": 0,
-                  "width": "1px",
-                }
-              }
-              tabIndex="0"
-              type="text"
-              value=""
-            />
-            <div
-              style={
-                {
-                  "height": 0,
-                  "left": 0,
-                  "overflow": "scroll",
-                  "position": "absolute",
-                  "top": 0,
-                  "visibility": "hidden",
-                  "whiteSpace": "pre",
-                }
-              }
-            >
-              
-            </div>
-          </div>
+            tabIndex={0}
+            type="text"
+            value=""
+          />
         </div>
       </div>
       <div
