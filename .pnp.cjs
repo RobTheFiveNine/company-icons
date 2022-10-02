@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-react", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:7.18.6"],\
             ["@babel/runtime", "npm:7.19.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.22"],\
-            ["axios", "npm:0.21.1"],\
+            ["axios", "npm:0.27.2"],\
             ["babel-loader", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:8.2.5"],\
             ["copy-webpack-plugin", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:11.0.0"],\
             ["css-loader", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:6.7.1"],\
@@ -3471,7 +3471,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-react", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:7.18.6"],\
             ["@babel/runtime", "npm:7.19.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.22"],\
-            ["axios", "npm:0.21.1"],\
+            ["axios", "npm:0.27.2"],\
             ["babel-loader", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:8.2.5"],\
             ["copy-webpack-plugin", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:11.0.0"],\
             ["css-loader", "virtual:98096a1eb88ed0f55fd1aba59f7339c80f2623b691342d13f660277620f62b4ee890096b6ea0a94005d34b31d527ad56bbaefd7352478ecb6b8b10b67cedbd50#npm:6.7.1"],\
@@ -4982,11 +4982,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["axios", [\
-        ["npm:0.21.1", {\
-          "packageLocation": "./.yarn/cache/axios-npm-0.21.1-d192f6b3b3-c87915fa0b.zip/node_modules/axios/",\
+        ["npm:0.27.2", {\
+          "packageLocation": "./.yarn/cache/axios-npm-0.27.2-dbe3a48aea-38cb754046.zip/node_modules/axios/",\
           "packageDependencies": [\
-            ["axios", "npm:0.21.1"],\
-            ["follow-redirects", "virtual:d192f6b3b31cd5d11a443145a3883a70c04cbd7c813c53085dbaf50263735f1162f10fdbddd53c24e162ec3bc37b90966413084323739b7cf942b8bfb4da8831#npm:1.14.2"]\
+            ["axios", "npm:0.27.2"],\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.2"],\
+            ["form-data", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7645,10 +7646,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:d192f6b3b31cd5d11a443145a3883a70c04cbd7c813c53085dbaf50263735f1162f10fdbddd53c24e162ec3bc37b90966413084323739b7cf942b8bfb4da8831#npm:1.14.2", {\
-          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-d3b59002e6/0/cache/follow-redirects-npm-1.14.2-43d57a862b-53195df4a2.zip/node_modules/follow-redirects/",\
+        ["npm:1.15.2", {\
+          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.15.2-1ec1dd82be-faa66059b6.zip/node_modules/follow-redirects/",\
           "packageDependencies": [\
-            ["follow-redirects", "virtual:d192f6b3b31cd5d11a443145a3883a70c04cbd7c813c53085dbaf50263735f1162f10fdbddd53c24e162ec3bc37b90966413084323739b7cf942b8bfb4da8831#npm:1.14.2"],\
+            ["follow-redirects", "npm:1.15.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.14.2", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-cd0da64bfc/0/cache/follow-redirects-npm-1.14.2-43d57a862b-53195df4a2.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.14.2"],\
+            ["@types/debug", null],\
+            ["debug", null]\
+          ],\
+          "packagePeers": [\
+            "@types/debug",\
+            "debug"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.2", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-42073a9d6a/0/cache/follow-redirects-npm-1.15.2-1ec1dd82be-faa66059b6.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.2"],\
             ["@types/debug", null],\
             ["debug", null]\
           ],\
@@ -8322,7 +8343,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["http-proxy", "npm:1.18.1"],\
             ["eventemitter3", "npm:4.0.7"],\
-            ["follow-redirects", "virtual:d192f6b3b31cd5d11a443145a3883a70c04cbd7c813c53085dbaf50263735f1162f10fdbddd53c24e162ec3bc37b90966413084323739b7cf942b8bfb4da8831#npm:1.14.2"],\
+            ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.14.2"],\
             ["requires-port", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
