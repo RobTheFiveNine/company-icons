@@ -2140,7 +2140,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-select: ^4.3.1
-    react-select-virtualized: ^3.5.0
+    react-select-virtualized: ^5.2.0
     react-test-renderer: ^17.0.2
     react-virtualized: ^9.22.3
     style-loader: ^3.3.1
@@ -8663,18 +8663,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-select-virtualized@npm:^3.5.0":
-  version: 3.5.0
-  resolution: "react-select-virtualized@npm:3.5.0"
+"react-select-virtualized@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "react-select-virtualized@npm:5.2.0"
   dependencies:
     lodash.debounce: 4.0.8
-    regenerator-runtime: ^0.13.7
+    regenerator-runtime: ^0.13.9
   peerDependencies:
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-select: 4.3.1
-    react-virtualized: 9.22.3
-  checksum: 2b18fd418e4dc536c465b6742947eaef1d589fe1d9cbbe802b30345f4bae63bf89b5f2cf941160b6806e98e1aa5f4ebfde31d71288c80361671a7264dc092e53
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-select: ^5.1.0
+    react-virtualized: ^9.22.3
+  checksum: 2500b7ef154248582a1c1b9aa1d2d96ec06af59ee4a4df261a93e5e6312541c433aec8ec3360170ed869384335545e9bf63bbb0d754d554774441ac65aa44c3c
   languageName: node
   linkType: hard
 
@@ -8833,7 +8833,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.4, regenerator-runtime@npm:^0.13.7":
+"regenerator-runtime@npm:^0.13.4, regenerator-runtime@npm:^0.13.9":
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9"
   checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
