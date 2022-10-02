@@ -8,6 +8,7 @@
   "scripts": {
     "build": "webpack -c webpack.prod.config.js --mode production && yarn run minify:icons",
     "minify:icons": "yarn node bin/minify-icons.js",
+    "prune:logos": "yarn node bin/prune-logos.js",
     "publish": "yarn run build && gh-pages -d dist",
     "serve": "webpack serve -c webpack.dev.config.js --mode development --devtool inline-source-map",
     "test": "jest -c jest.config.js",
