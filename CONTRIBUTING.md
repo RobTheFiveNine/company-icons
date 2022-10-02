@@ -2,7 +2,7 @@ Contributing
 ============
 If you have an icon you'd like to add, you should follow these steps:
 
-1. Ensure the aspect ratio is 1:1
+1. Ensure the aspect ratio is 1:1 and has an opaque background
 2. Add the file to the `logos` directory with a name that matches the `{EXCHANGE}-{TICKER}` naming convention that is currently in place
 3. Update `src/icons.json` to include a new entry that specifies the exchange, the file extension (including leading `.`), the company name and the ticker symbol
 
