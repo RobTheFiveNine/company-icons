@@ -6,6 +6,8 @@ function getLogoFilename(company) {
   return `${company.exchange}-${company.ticker}${company.ext}`;
 }
 
+const ignoreFiles = ['icons.mini.json']
+
 const srcPath = path.resolve(__dirname, '..', 'src');
 
 const logosPath = path.resolve(__dirname, '..', 'logos');
@@ -26,7 +28,7 @@ fs.readdir(logosPath, function (err, files) {
   }
 
   files.forEach(function (file) {
-    if (!usedLogoFiles[file]) {
+    if (!usedLogoFiles[file] && !ignoreFiles.includes(file)) {
       const filePath = path.join(logosPath, file);
       fs.unlink(filePath, err => {
         if (err) {
