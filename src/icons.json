@@ -35290,5 +35290,35 @@
     "ext" : ".png",
     "name" : "Wheaton Precious Metals Corp",
     "ticker" : "WPM"
+  },
+  {
+    "exchange" : "NYSE",
+    "ext" : ".jpg",
+    "name" : "TotalEnergies SE",
+    "ticker" : "TTE"
+  },
+  {
+    "exchange" : "NASDAQ",
+    "ext" : ".png",
+    "name" : "Stealth BioTherapeutics Corp",
+    "ticker" : "MITO"
+  },
+  {
+    "exchange" : "NASDAQ",
+    "ext" : ".jpg",
+    "name" : "Stealth Gas, Inc",
+    "ticker" : "GASS"
+  },
+  {
+    "exchange" : "NASDAQ",
+    "ext" : ".jpg",
+    "name" : "Tuesday Morning Corporation",
+    "ticker" : "TUEM"
+  },
+  {
+    "exchange" : "NASDAQ",
+    "ext" : ".png",
+    "name" : "Mobilicom Limited",
+    "ticker" : "MOB"
   }
 ]
