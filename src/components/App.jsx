@@ -37,7 +37,7 @@ function App() {
     <div>
        <h1>Company Icons</h1>
       <p>
-        This page currently hosts standardised icons for <strong>{icons.length}</strong> publicly listed companies.
+        This page currently hosts standardised icons for <strong>{icons.length.toLocaleString("en-GB")}</strong> publicly listed companies.
         Each icon uses a 1:1 aspect ratio, making them suitable for applications that need
         to display company logos as avatars / icons.
       </p>
